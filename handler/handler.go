@@ -16,8 +16,8 @@ func SetRoutes() *echo.Echo {
 		api.GET("/products", controller.Getproducts)
 		api.GET("/products/:code", controller.Getproduct)
 		api.POST("/newproduct", controller.Createproduct)
-		api.PUT("/product/:code", controller.Updateproduct)
-		api.DELETE("/product/:code", controller.Deleteproduct)
+		api.PUT("/products/:code", controller.Updateproduct)
+		api.DELETE("/products/:code", controller.Deleteproduct)
 	}
 	return e
 }
