@@ -119,13 +119,15 @@ func Deleteprod(code string) (Response, error) {
 	var prod Product
 	var b bool = false
 	//data := Readjson()
-	for i, val := range produs {
+	for _, val := range produs {
 		if val.Code == code {
-			produs[i] = produs[i+1]
+			prod = val
 			b = true
-			break
+			continue
 		}
+		out = append(out, val)
 	}
+	produs = out
 	/*outfile, err := json.Marshal(data)
 	if err != nil {
 		return resp, errors.New("process Failed")
