@@ -1,0 +1,81 @@
+[{
+    
+        "code":"p@1",
+        "title":"prodfirst",
+        "type" : "type@1",
+        "expdate" : "may 2022",
+        "stockpresent" : 200,
+        "batch" : "april"
+    
+},
+{
+    
+    "code":"p@2",
+    "title":"prodsecond",
+    "type" : "type@2",
+    "expdate" : "jun 2022",
+    "stockpresent" : 300,
+    "batch" : "may"
+
+},
+{
+    
+    "code":"p@3",
+    "title":"prodthree",
+    "type" : "type@3",
+    "expdate" : "july 2022",
+    "stockpresent" : 400,
+    "batch" : "june"
+
+},
+{
+    
+    "code":"p@4",
+    "title":"prodfour",
+    "type" : "type@4",
+    "expdate" : "August 2022",
+    "stockpresent" : 500,
+    "batch" : "july"
+
+},
+{
+    
+    "code":"p@5",
+    "title":"prodfive",
+    "type" : "type@5",
+    "expdate" : "september 2022",
+    "stockpresent" : 500,
+    "batch" : "august"
+
+},
+{
+    
+    "code":"p@6",
+    "title":"prodsix",
+    "type" : "type@6",
+    "expdate" : "october 2022",
+    "stockpresent" : 600,
+    "batch" : "september"
+
+},
+{
+    
+    "code":"p@7",
+    "title":"prodseven",
+    "type" : "type@7",
+    "expdate" : "november 2022",
+    "stockpresent" : 700,
+    "batch" : "october"
+
+},
+{
+    
+    "code":"p@8",
+    "title":"prodeight",
+    "type" : "type@8",
+    "expdate" : "december 2022",
+    "stockpresent" : 800,
+    "batch" : "November"
+
+}]
+
